@@ -3,7 +3,7 @@
 *, html, body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Manrope', sans-serif;
     color: #000000;
 }
@@ -45,7 +45,7 @@
 
 .header-image img {
     width: 309px;
-    height: 30rem;
+    height: 33rem;
 }
 
 /* -------end of nav------ */
