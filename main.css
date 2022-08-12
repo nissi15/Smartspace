@@ -174,6 +174,7 @@ section p {
 .deals-des p {
     width: 17rem;
     font-size: 10px;
+    margin-bottom: 1rem;
 }
 
 .deals-btn button, .feature-grid button {
