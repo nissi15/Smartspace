@@ -20,7 +20,7 @@
 
 .nav h1 {
     font-size: 13px;
-    padding-top: 11px;
+    padding-top: 7px;
 }
 
 .nav-area ul li {
@@ -89,9 +89,7 @@ section p {
     height: 28rem;
 }
 
-.section2 {
- /* margin: -6em 0; */
-}
+
 
 .logo {
     margin: 9.3rem 0;
@@ -178,7 +176,7 @@ section p {
     font-size: 10px;
 }
 
-.deals-btn button {
+.deals-btn button, .feature-grid button {
     background-color: #F85A47;
     box-shadow: 0px 60.9596px 48.7677px rgba(248, 90, 71, 0.07), 0px 39.5108px 28.5607px rgba(248, 90, 71, 0.0531481), 0px 23.4807px 15.5334px rgba(248, 90, 71, 0.0425185), 0px 12.1919px 7.92474px rgba(248, 90, 71, 0.035), 0px 4.96708px 3.97366px rgba(248, 90, 71, 0.0274815), 0px 1.12888px 1.9191px rgba(248, 90, 71, 0.0168519);
     border-radius: 3.04798px;
@@ -220,7 +218,7 @@ section p {
     width: 11rem;
 }
 
-.section4 h3 {
+.section4 h3, .news h2, .news p {
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
@@ -272,6 +270,102 @@ section p {
 }
 
 .feature-grid {
-    display: grid;
-    gap: 50px 100px;
+    
+}
+
+.business {
+    margin-top: 5rem;
+}
+
+.business h3 {
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+.business-grp {
+    border-radius: 16px;
+    box-sizing: border-box;
+    /* margin-left: 3rem; */
+
+}
+
+.business-grp p:nth-of-type(1) {
+    width: 9rem;
+}
+
+.business-grp img:nth-of-type(1) {
+    /* width: 4rem; */
+}
+
+.business-dp {
+    display: flex;
+}
+
+.business-img img {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: -26px;
+    margin-right: 0.5rem;
+}
+
+.business-id h5 {
+    font-size: 9px;
+    margin-top: 15px;
+   padding-bottom: -20px;
+}
+
+.business-id p {
+    font-size: 8px;
+    margin-top: -13px;
+}
+
+.business-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-grp:not(first child) {
+    /* margin-left: 4rem; */
+}
+
+.business-logo {
+    margin-bottom: 7rem;
+}
+
+.business-logo img {
+    width: 25rem;
+   padding-top: 1rem;
+}
+
+.business-dpl {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.news p {
+    margin-top: -3.7rem;
+    font-size: 13px;
+    font-weight: bold;
+    color: #31353B;
+}
+
+.news h2 {
+    color: #31353B;
+}
+
+hr {
+    margin-bottom: 1rem;
+}
+
+
+.copyright {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    font-size: 10px;
+    font-weight: bold;
 }
