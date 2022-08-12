@@ -197,10 +197,81 @@ section p {
 .titles h3 {
     font-size: 11px;
     font-weight: initial;
+    margin-left: 2rem;
 }
+
+.titles h3:nth- {
+    font-size: 11px;
+    font-weight: initial;
+    color: red;
+}
+
+
 
 .deals-image-dp {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
+}
+
+
+
+.deals-image img {
+    width: 11rem;
+}
+
+.section4 h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.feature {
+    background-color: #F1FFFF;
+    width: auto;
+}
+
+.feature-dp {
+    display: flex;
+    justify-content: space-around;
+}
+.feature-img {
+    margin-top: 2rem;
+}
+
+.feature-img img{
+    width: 300px;
+    height: 185px;
+}
+
+.ft-abs {
+    position: absolute;
+    left: 9.3rem;
+    top: 96.5rem;
+    z-index: 99;
+
+}
+
+.ft-abs img {
+    width: 360px;
+    height: 300px;
+}
+
+.feature-des{
+    margin-left: -5rem;
+    margin-top: 2rem;
+}
+
+.feature-des h4{
+    width: 15rem;
+    /* padding-top: ; */
+}
+.feature-des p{
+    padding-top: 1rem;
+    width: 13rem;
+}
+
+.feature-grid {
+    display: grid;
+    gap: 50px 100px;
 }
