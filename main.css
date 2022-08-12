@@ -45,7 +45,7 @@
 
 .header-image img {
     width: 309px;
-    height: 33rem;
+    height: 30rem;
 }
 
 /* -------end of nav------ */
@@ -84,11 +84,14 @@ section p {
 }
 
 .smart-image img {
-    margin-left: -5rem;
+    margin-left: -8rem;
     width: 29rem;
     height: 28rem;
 }
 
+.section2 {
+ /* margin: -6em 0; */
+}
 
 .logo {
     margin: 9.3rem 0;
@@ -98,4 +101,106 @@ section p {
 .logo img {
     width: 33rem;
     height: 1rem;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: -4em;
+}
+
+.work h2 {
+    /* margin-top: -4rem; */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.work-logo {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.work-logo img {
+    width: 8rem;
+}
+
+.line1 {
+    margin-bottom: -0.55rem;
+}
+
+.work-display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3rem;
+}
+
+
+.work-des h3 {
+    font-size: 13px;
+}
+
+.work-des-1 h3 {
+    font-size: 13px;
+}
+
+.work-des {
+
+    margin-left: 2rem;
+}
+
+.work-des-1 {
+    margin-left: 2rem;
+    margin-right: -2rem;
+}
+
+.work-des p {
+    width: 9rem;
+    padding-top: -9rem;
+}
+
+.work-des-1 p {
+    width: 9rem;
+}
+
+.deals {
+    margin: 6rem 0;
+}
+
+.deals-dp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals-des p {
+    width: 17rem;
+    font-size: 10px;
+}
+
+.deals-btn button {
+    background-color: #F85A47;
+    box-shadow: 0px 60.9596px 48.7677px rgba(248, 90, 71, 0.07), 0px 39.5108px 28.5607px rgba(248, 90, 71, 0.0531481), 0px 23.4807px 15.5334px rgba(248, 90, 71, 0.0425185), 0px 12.1919px 7.92474px rgba(248, 90, 71, 0.035), 0px 4.96708px 3.97366px rgba(248, 90, 71, 0.0274815), 0px 1.12888px 1.9191px rgba(248, 90, 71, 0.0168519);
+    border-radius: 3.04798px;
+    color: white;
+    border-color: #F85A47;
+    font-size: 10px;
+    padding: 8px 7px;
+    margin-top: -2rem;
+}
+
+.deals-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titles h3 {
+    font-size: 11px;
+    font-weight: initial;
+}
+
+.deals-image-dp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
